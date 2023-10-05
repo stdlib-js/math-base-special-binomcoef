@@ -29,7 +29,7 @@ var binomcoef = require( './../../dist' );
 
 // FIXTURES //
 
-var integers = require( './../..xtures/julia/integers.json' );
+var integers = require( './../fixtures/julia/integers.json' );
 
 
 // TESTS //
