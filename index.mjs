@@ -1,0 +1,4 @@
+// Copyright (c) 2023 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import s from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-integer@v0.1.1-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@v0.1.1-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-odd@v0.1.0-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@v0.1.1-esm/index.mjs";function i(n,d){var m,a;if(t(n)||t(d))return NaN;if(!s(n)||!s(d))return NaN;if(d<0)return 0;if(n<0)return m=i(-n+d-1,d),e(d)&&(m=-m),m;if(d>n)return 0;if(0===d||d===n)return 1;if(1===d||d===n-1)return n;for(n-d<d&&(d=n-d),m=n,a=2;a<=d;a++)m*=(n-a+1)/a;return s(m)?m:r(m)}export{i as default};
+//# sourceMappingURL=index.mjs.map
