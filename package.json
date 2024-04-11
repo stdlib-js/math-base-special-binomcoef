@@ -46,6 +46,7 @@
     "@stdlib/math-base-special-gcd": "^0.2.1"
   },
   "devDependencies": {
+    "@stdlib/constants-float64-ninf": "^0.2.1",
     "@stdlib/math-base-special-round": "^0.2.1",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
