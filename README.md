@@ -78,7 +78,7 @@ The [binomial coefficient][binomial-coefficient] can be generalized to negative 
 ## Usage
 
 ```javascript
-import binomcoef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binomcoef@deno/mod.js';
+import binomcoef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binomcoef@v0.2.3-deno/mod.js';
 ```
 
 #### binomcoef( n, k )
@@ -141,7 +141,7 @@ v = binomcoef( 5.5, 2 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import binomcoef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binomcoef@deno/mod.js';
+import binomcoef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binomcoef@v0.2.3-deno/mod.js';
 
 var n;
 var k;
