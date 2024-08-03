@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`5cd396f`](https://github.com/stdlib-js/stdlib/commit/5cd396ff2752de587151f2f8b50d36348db3321e) - **refactor:** use bitwise operation and make casting behavior explicit [(#2733)](https://github.com/stdlib-js/stdlib/pull/2733) _(by Gunj Joshi)_
 -   [`8a97c7d`](https://github.com/stdlib-js/stdlib/commit/8a97c7dbcb07a873fe7395156cfa1fa40beb1dad) - **chore:** update package meta data [(#2738)](https://github.com/stdlib-js/stdlib/pull/2738) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`06b8011`](https://github.com/stdlib-js/stdlib/commit/06b80119890e1868578ba4904e9efaa071b27b05) - **feat:** add C implementation for `math/base/special/binomcoef` _(by Gunj Joshi)_
 
