@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-03)
+## Unreleased (2024-08-18)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`abcf36e`](https://github.com/stdlib-js/stdlib/commit/abcf36e4c2ff11c808a22217d4d6ebb506f0df1d) - remove extra slash from dependency in `manifest.json` 
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`abcf36e`](https://github.com/stdlib-js/stdlib/commit/abcf36e4c2ff11c808a22217d4d6ebb506f0df1d) - **fix:** remove extra slash from dependency in `manifest.json`  _(by Philipp Burckhardt)_
 -   [`5cd396f`](https://github.com/stdlib-js/stdlib/commit/5cd396ff2752de587151f2f8b50d36348db3321e) - **refactor:** use bitwise operation and make casting behavior explicit [(#2733)](https://github.com/stdlib-js/stdlib/pull/2733) _(by Gunj Joshi)_
 -   [`8a97c7d`](https://github.com/stdlib-js/stdlib/commit/8a97c7dbcb07a873fe7395156cfa1fa40beb1dad) - **chore:** update package meta data [(#2738)](https://github.com/stdlib-js/stdlib/pull/2738) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`06b8011`](https://github.com/stdlib-js/stdlib/commit/06b80119890e1868578ba4904e9efaa071b27b05) - **feat:** add C implementation for `math/base/special/binomcoef` _(by Gunj Joshi)_
@@ -221,8 +232,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ### BREAKING CHANGES
 
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version
--   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1 
+-   [`58832ee`](https://github.com/stdlib-js/stdlib/commit/58832eef6d93e6519622148242600eae93dca4d9): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
