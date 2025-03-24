@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-05)
+## Unreleased (2025-03-24)
 
 <section class="features">
 
@@ -32,6 +32,7 @@
 
 <details>
 
+-   [`75cbf89`](https://github.com/stdlib-js/stdlib/commit/75cbf899216dadede64e77994fe058932facc51b) - **chore:** replace manual `for` loop in examples [(#6308)](https://github.com/stdlib-js/stdlib/pull/6308) _(by Harsh, stdlib-bot)_
 -   [`9b2d78d`](https://github.com/stdlib-js/stdlib/commit/9b2d78de67da47208451b8e6bbb7c1747a6e4854) - **bench:** refactor random value generation [(#5465)](https://github.com/stdlib-js/stdlib/pull/5465) _(by Saurabh Singh, stdlib-bot)_
 -   [`abcf36e`](https://github.com/stdlib-js/stdlib/commit/abcf36e4c2ff11c808a22217d4d6ebb506f0df1d) - **fix:** remove extra slash from dependency in `manifest.json`  _(by Philipp Burckhardt)_
 -   [`5cd396f`](https://github.com/stdlib-js/stdlib/commit/5cd396ff2752de587151f2f8b50d36348db3321e) - **refactor:** use bitwise operation and make casting behavior explicit [(#2733)](https://github.com/stdlib-js/stdlib/pull/2733) _(by Gunj Joshi)_
@@ -48,9 +49,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Gunj Joshi
+-   Harsh
 -   Philipp Burckhardt
 -   Saurabh Singh
 
