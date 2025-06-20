@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
+## Unreleased (2025-06-20)
 
 <section class="features">
 
@@ -20,6 +20,7 @@
 
 ### Bug Fixes
 
+-   [`a102897`](https://github.com/stdlib-js/stdlib/commit/a102897c86676e033a999d61e90df8eb3b16b99e) - remove extra slash from include path
 -   [`abcf36e`](https://github.com/stdlib-js/stdlib/commit/abcf36e4c2ff11c808a22217d4d6ebb506f0df1d) - remove extra slash from dependency in `manifest.json` 
 
 </section>
@@ -32,6 +33,7 @@
 
 <details>
 
+-   [`a102897`](https://github.com/stdlib-js/stdlib/commit/a102897c86676e033a999d61e90df8eb3b16b99e) - **fix:** remove extra slash from include path _(by Philipp Burckhardt)_
 -   [`75cbf89`](https://github.com/stdlib-js/stdlib/commit/75cbf899216dadede64e77994fe058932facc51b) - **chore:** replace manual `for` loop in examples [(#6308)](https://github.com/stdlib-js/stdlib/pull/6308) _(by Harsh, stdlib-bot)_
 -   [`9b2d78d`](https://github.com/stdlib-js/stdlib/commit/9b2d78de67da47208451b8e6bbb7c1747a6e4854) - **bench:** refactor random value generation [(#5465)](https://github.com/stdlib-js/stdlib/pull/5465) _(by Saurabh Singh, stdlib-bot)_
 -   [`abcf36e`](https://github.com/stdlib-js/stdlib/commit/abcf36e4c2ff11c808a22217d4d6ebb506f0df1d) - **fix:** remove extra slash from dependency in `manifest.json`  _(by Philipp Burckhardt)_
