@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-08-24)
 
 <section class="features">
 
@@ -27,12 +27,25 @@
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`248ba46`](https://github.com/stdlib-js/stdlib/commit/248ba46d1592e64827fb69c464e68975f747f62e): update signature to accept doubles
+
+    -   User code should behave similarly in the primary case of providing integer-valued input values. However, no longer will real-values truncate. Now, real-valued inputs will result in `NaN`, which is, arguably, better behavior, as real-to-integer truncation can be a source of silent bugs.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`248ba46`](https://github.com/stdlib-js/stdlib/commit/248ba46d1592e64827fb69c464e68975f747f62e) - **refactor:** modify C implementation to accept `double` values instead of `int64` in `math/base/special/binomcoef` [(#7945)](https://github.com/stdlib-js/stdlib/pull/7945) _(by Gunj Joshi, Athan Reines)_
 -   [`a102897`](https://github.com/stdlib-js/stdlib/commit/a102897c86676e033a999d61e90df8eb3b16b99e) - **fix:** remove extra slash from include path _(by Philipp Burckhardt)_
 -   [`75cbf89`](https://github.com/stdlib-js/stdlib/commit/75cbf899216dadede64e77994fe058932facc51b) - **chore:** replace manual `for` loop in examples [(#6308)](https://github.com/stdlib-js/stdlib/pull/6308) _(by Harsh, stdlib-bot)_
 -   [`9b2d78d`](https://github.com/stdlib-js/stdlib/commit/9b2d78de67da47208451b8e6bbb7c1747a6e4854) - **bench:** refactor random value generation [(#5465)](https://github.com/stdlib-js/stdlib/pull/5465) _(by Saurabh Singh, stdlib-bot)_
@@ -51,8 +64,9 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Gunj Joshi
 -   Harsh
 -   Philipp Burckhardt
