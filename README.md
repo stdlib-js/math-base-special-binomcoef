@@ -78,7 +78,7 @@ The [binomial coefficient][binomial-coefficient] can be generalized to negative 
 ## Usage
 
 ```javascript
-import binomcoef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binomcoef@esm/index.mjs';
+import binomcoef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binomcoef@v0.3.0-esm/index.mjs';
 ```
 
 #### binomcoef( n, k )
@@ -146,7 +146,7 @@ v = binomcoef( 5.5, 2 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import binomcoef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binomcoef@esm/index.mjs';
+import binomcoef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-binomcoef@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
